@@ -1,4 +1,4 @@
-# 11주차 실습 – Singleton 패턴 (Python)
+# 2026 2학기 초급프로젝트 11주차 실습 – Singleton 패턴 (Python)
 
 ## 1. 선택 언어 및 실행 환경
 
