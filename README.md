@@ -48,7 +48,7 @@ config1로 counter를 2번 증가시키고 theme을 'dark'로 변경
 [변경 후] config2.counter = 2, config2.theme = dark
 
 === 3. 생성자 직접 호출 제한 확인 ===
-AppConfig() 호출 -> TypeError: AppConfig는 직접 생성할 수 없습니다. AppConfig.get_instance()를 사용할 것.
+AppConfig() 호출 -> TypeError: AppConfig는 직접 생성할 수 없다. AppConfig.get_instance()를 사용할 것.
 ```
 
 > `id` 값은 실행할 때마다 달라질 수 있지만, 한 번의 실행 안에서 두 값은 항상 같다.

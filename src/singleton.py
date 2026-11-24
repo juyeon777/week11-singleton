@@ -10,7 +10,7 @@ class AppConfig:
     def __new__(cls, *args, **kwargs):
         # AppConfig() 처럼 생성자를 직접 호출하는 것을 막는다.
         raise TypeError(
-            "AppConfig는 직접 생성할 수 없습니다. AppConfig.get_instance()를 사용할 것."
+            "AppConfig는 직접 생성할 수 없다. AppConfig.get_instance()를 사용할 것."
         )
 
     @classmethod
